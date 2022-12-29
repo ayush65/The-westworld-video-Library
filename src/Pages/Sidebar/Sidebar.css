@@ -1,0 +1,18 @@
+/** @format */
+
+.sidebar-container {
+  flex: 0.05;
+  justify-content: space-between;
+  width: 4rem;
+  border-right: 2px solid white;
+  /* background-color: #9b2226; */
+  background-color: #1c323b;
+  height: 112vh;
+  position: absolute;
+}
+.sidebar-icons {
+  padding: 1rem;
+  text-decoration: none;
+  display: flex;
+  color: #e1faf9;
+}

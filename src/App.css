@@ -1,0 +1,23 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Arial";
+}
+.app {
+  background-color: #264653;
+  color: #fff;
+  height: 122vh;
+  font-family: "Times New Roman", Times, serif;
+}
+
+@media (max-width: 500px) {
+  .app {
+    background-color: #264653;
+    color: #fff;
+    height: 522vh;
+    font-family: "Times New Roman", Times, serif;
+  }
+}

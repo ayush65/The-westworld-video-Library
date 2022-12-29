@@ -1,0 +1,41 @@
+/** @format */
+
+.showvideo-components {
+  display: flex;
+  height: 100rem;
+}
+.show-video-container {
+  flex: 0.8;
+  background-color: #121212;
+  padding: 40px 20px;
+  padding-bottom: 0;
+  height: 100rem;
+}
+.video-container {
+  display: flex;
+}
+.video-rendering {
+  display: flex;
+  flex-wrap: column;
+  height: 140rem;
+  background-color: #121212;
+}
+.video-sidebar {
+  flex: 0.2;
+}
+.addtoplaylist-input {
+  color: #121212;
+}
+.video-sidebar-card {
+  width: 80%;
+  margin-top: 2rem;
+}
+.video-container {
+  justify-content: space-between;
+  font-size: 1.3rem;
+}
+@media (max-width: 500px) {
+  .video-rendering {
+    flex-direction: row;
+  }
+}

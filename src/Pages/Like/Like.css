@@ -1,0 +1,15 @@
+/** @format */
+
+.like-component {
+  display: flex;
+  height: 100vh;
+}
+.like-component-container {
+  flex: 0.97;
+  padding: 40px 20px;
+  padding-bottom: 0;
+  width: 100%;
+}
+.playlist-videocard-container {
+  width: 100%;
+}

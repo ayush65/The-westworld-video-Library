@@ -1,0 +1,55 @@
+/** @format */
+
+.homepage-container {
+  display: flex;
+}
+.homepage-components {
+  flex: 0.95;
+  padding: 40px 20px;
+  padding-bottom: 0;
+  text-align: center;
+  height: 90vh;
+}
+/* .homepage-img {
+  width: 45%;
+} */
+.home-logo {
+  font-family: "Lucida Console";
+  font-size: 5rem;
+  padding: 2rem;
+}
+.homepage-videos {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+}
+.home-img {
+  width: 20%;
+  padding: 3rem;
+  border-radius: 50%;
+}
+.home-para {
+  margin: 2rem;
+}
+.home-btn {
+  background-color: #9b2226;
+  color: white;
+  text-decoration: none;
+  padding: 1rem;
+  margin-top: 5rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+@media (max-width: 500px) {
+  .home-img {
+    width: 55%;
+    left: 10%;
+  }
+  .home-logo {
+    font-size: 2rem;
+    padding: 1rem;
+  }
+  .home-h1 {
+    font-size: 1rem;
+  }
+}
